@@ -13,8 +13,8 @@ import (
 
 func main() {
 	now := time.Now()
-	today_str := fmt.Sprintf("%d-%d-%d %d:%d:%d", now.Year(), now.Month(), now.Day(),now.Hour(),now.Minute(),now.Second())
-	fmt.Printf("%v\n",today_str)
+	today_str := fmt.Sprintf("%d-%d-%d %d:%d:%d", now.Year(), now.Month(), now.Day(), now.Hour(), now.Minute(), now.Second())
+	fmt.Printf("%v\n", today_str)
 
 	st := fmt.Sprint(now.Format("2006/01/02 15:04:05"))
 	fmt.Println(st)
