@@ -1,0 +1,11 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /v1/ping                  --> main.main.func1 (5 handlers)
+[GIN-debug] GET    /v1/test                  --> main.main.func2 (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8081
+192.168.182.1 - [Tue, 20 Oct 2020 15:41:37 CST] "GET /v1/test HTTP/1.1 200 191.752µs "PostmanRuntime/7.26.5" "
+[GIN] 2020/10/20 - 15:42:06 | 200 | 28.644323965s |   192.168.182.1 | GET      "/v1/test"
